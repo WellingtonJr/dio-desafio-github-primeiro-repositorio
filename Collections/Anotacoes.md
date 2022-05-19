@@ -33,5 +33,32 @@ deve ser usado onde mais operações de inserção e exclusão são necessárias
     - *lista.remove(posicao ou elemento)*: remove o elemento informado ou elemento da posicao informada
     - *lista.clear()*: limpa toda a lista.
     - *lista.IsEmpty()*: retorna true se lista for vazia, senao false
+    - *Collections.shuffle(lista)*: altera randomicamente o indice de cada elemento da lista
+    - estudar Método *compareTo* da interface *Comparable*
+    - Comparable - *Collections.sort(lista com metodo compareTo)*: ordena a lista de acordo com o metodo *compareTo*
 
-
+## Interface Set
+  - Não permite elementos duplicados
+  - Não possui índice
+  - HashSet não mantém ordem de elementos
+  - LinkedHashSet mantém a ordem de inserção
+  - TreeSet mantém ordem natural dos elementos(ordem númerica, ordem alfabética...)
+  - Hashset e LinkedHashSet permite 1 elemento null
+  - TreeSet não permite elementos null
+  - Declaração Set
+    - *Set< Double > set = new HashSet< >()* 
+  - Métodos Set:
+    - *set.contais(objeto a ser buscado)*: retorna true se tem 1 objeto do parametero informado, senao false
+    - *Collections.min(set) / Collection.max(set)*
+    - *set.iterator()*
+    - *set.size()*
+    - *set.remove(arg)*
+## Interface Map
+  - Map não extende da interface Collection
+  - Cada elemento tem uma chave e um valor
+  - Cada chave é unica
+  - Pode ter valores duplicados num mesmo mapa
+  - Implementações: HashTable, HashMap e LinkedHashMap(extende da HashMap), TreeMap
+  - HashMap: iteração de ordem aleatória, permite chaves nulas
+  - LinkedHashMap: iteração de ordem de inserção, permite chaves nulas
+  - TreeMap: iteração por ordem natural das chaves, **NÃO** permite chaves nulas

@@ -8,3 +8,11 @@ Aprendizado efetuado até a data do último commit:
     -   Tudo o Que Você Precisa Saber Para Ser Protagonista Em Um Bootcamp DIO
     -   Introdução à Programação e Pensamento Computacional
     -   Introdução ao Git e GitHub
+    -   Criando Primeiro Repositório
+-   Módulo II - Setup:
+    -   Dominando IDEs Java
+-   Módulo III - Java fundamental:
+    -   Variáveis, Tipos de Dados e Operadores Matemáticos em Java
+    -   Entendendo Métodos Java
+    -   Lógica Condicional e Controle de FLuxos em Java
+    -   Estruturas de Repetição e Arrays em Java
